@@ -1,0 +1,26 @@
+DKubeX is a Kubernetes-based AI platform for the secure, private deployment of Generative AI applications, optimizing resource allocation, ensuring compliance, and integrating with existing pipelines in on-premises and private cloud environments. It provides a scalable and efficient infrastructure for managing AI workloads in enterprise settings.
+
+DKubeX supports two main workflows: LLMOps and MLOps.
+
+DKubeX provides a comprehensive set of features for building and deploying large language models (LLMs). These features include:
+
+LLM Catalog: Access to multiple, ready to deploy open-source LLMs.
+RAG: Build generative AI applications with your private data.
+Fine-tuning: Train LLMs with your private data.
+Serving: Deploy your custom, fine-tuned models on any of the LLMs provided in our catalog.
+SecureLLM: Monitor requests & responses, collect RLHF data & track security & evaluation metrics.
+SecureChat: Deploy multiple custom chat applications with any of the LLMs deployed on DKubeX.
+
+DKubeX provides a comprehensive set of features for building and deploying traditional machine learning models. These features include:
+
+Notebooks: Rapid experimentation with Jupyter, VSCode or R.
+Pipeline Orchestration: Flyte or Kubeflow for streamlined workflows.
+Training & Serving: Train & serve traditional ML models.
+
+DKubeX provides a set of common tools that are shared between the LLMOps and MLOps workflows. These tools include:
+
+Custom UI: Manage jobs and clusters through a user-friendly interface.
+MLFlow: Track experiments and lineage.
+Logs & Metrics UI: Troubleshoot workflows with custom logs and metrics.
+Compute Resource Optimization: Optimize training/fine-tuning cost using SkyPilot.
+Collaboration: Easily share workspaces between users.
